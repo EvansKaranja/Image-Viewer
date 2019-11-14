@@ -12,11 +12,11 @@ body {
 }
 div {
   max-width: 100vw;
-  max-height: 100%;
+  max-height: 100vh;
 }
 #one {
   background-image: url("./images/aerial-photo-of-empty-meandering-road-in-between-forest-2876511.jpg");
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,8 +55,4 @@ p {
   text-align: left;
   font-size: 1.2rem;
   padding: 0.5em 1em;
-}
-#one + p {
-  height: 15vh;
-  padding-top: 1rem;
 }
